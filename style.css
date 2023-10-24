@@ -1,0 +1,44 @@
+
+
+
+.header_color {
+    background-color: #f1f1f1;
+}
+
+.hlavni_logo {
+    width: 75%;
+}
+
+.margintop {
+    margin-top: 200px;
+}
+
+.bordermq {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+
+
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .bordermq {
+        border-left: none !important;
+        border-right: none !important; 
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+          
+    }
+
+    .margintop {
+        margin-top: 50px;
+    }
+
+    main img {
+        width: 50%;
+    }
+
+  }
+
+
