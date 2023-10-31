@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'MerryChristmasFlake';
+    src: url('img/MerryChristmasFlake.ttf') format('truetype');
+}
+
+
+.hlavni_logo {
+    width: 75%;
+}
+
+.header {
+    background-color: #d0e2f2;
+    padding: 0px;
+
+}
+
+main h1 {
+    font-family: MerryChristmasFlake;
+    font-size: 9rem;
+
+}
+
+.logo__color {
+    color: #365875;
+}
+
+
+
+.route {
+    background-color: #BDDBD9;
+    
+ 
+}
+
+
+
+.wave {
+    background-color: white;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+
+.photo {
+    background-color: #AFEEEE;
+    min-height: 300px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 560px;
+    height: 315px;
+
+}
+
+footer {
+    background-color: #365875;
+}
+
+footer img {
+    width: 75px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    main h1 {
+        font-size: 6rem;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 790px) {
+    main h1 {
+        font-size: 4rem;
+
+    }
+
+    .hlavni_logo {
+        width: 50%;
+    }
+
+    footer img {
+        width: 50px;
+    }
+
+    #countdown {
+        font-size: 1rem;
+    }
+
+    iframe {
+        width: 392px;
+        height: 189px;
+
+    }
+
+}
+
+
+
+@media screen and (max-width: 410px) {
+    main h1 {
+        font-size: 5rem;
+
+    }
+
+    .wrap {
+        flex-direction: column;
+        text-align: center;
+
+
+    }
+
+    #countdown {
+        display: none;
+    }
+
+    iframe {
+        width: 280px;
+        height: 157px;
+
+    }
+
+}
