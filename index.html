@@ -1,298 +1,51 @@
 <!doctype html>
 <html lang="cs">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TJ Sokol Křinec</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="style1.css">
-  <meta name="description" content="TJ Sokol Křinec">
-  <meta property="og:description" content="Webové stránky TJ Sokol Křinec">
-  <meta property="og:url" content="https://sokolkrinec.cz/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="TJ Sokol Křinec">
-  <meta name="og:image" content="http://www.sokolkrinec.cz/ogimg.png">
-  <meta name="author" content="Andreas Molitoris">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/sokol_favicon_16.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/sokol_favicon_32.png">
-  <link rel="icon" type="image/png" sizes="64x64" href="img/sokol_favicon_64.png">
-
-  <!-- JS knihovny -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://www.cookie-lista.cz/BeeCookie/jquery-3.3.1.min.js"></script>
-
-  <!-- JS knihovny KONEC -->
-
-</head>
-
-<body>
-
-  <nav class="navbar header">
-    <div class="container wrap">
-      <a class="navbar-brand" href="https://www.sokolkrinec.cz">
-        <img src="img/logosokol2.png" alt="Logo TJ Sokol Křinec"
-          class="d-inline-block align-text-top img-fluid hlavni_logo">
-      </a>
-      <div class="hlavicka__pocitadlo text-danger fs-4 fw-bold">
-        <div id="countdown">
-          Do startu zbývá:<br> <span>68d</span> <span>00h</span> <span>08m</span> <span>34s</span>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TJ Sokol Křinec</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="TJ Sokol Křinec">
+    <meta property="og:description" content="Webové stránky TJ Sokol Křinec">
+    <meta property="og:url" content="https://sokolkrinec.cz/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TJ Sokol Křinec">
+    <meta name="author" content="Andreas Molitoris">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/sokol_favicon_16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/sokol_favicon_32.png">
+    <link rel="icon" type="image/png" sizes="64x64" href="img/sokol_favicon_64.png">
+  </head>
+  <body >
+    
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            
+                <a class="navbar-brand" href="https://www.sokolkrinec.cz">
+                    <img src="img/logosokol2.png" alt="Logo TJ Sokol Křinec" class="d-inline-block align-text-top img-fluid hlavni_logo">
+                </a>
+            
         </div>
-
-      </div>
-    </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 1440 120" class="wave"><path fill="#d0e2f2" fill-opacity="1" d="M0,160L120,138.7C240,117,480,75,720,64C960,53,1200,75,1320,85.3L1440,96L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
-  </nav>
-  <main>
-    <div class="container">
-      <h1 class="text-center mt-5 logo__color">Křinecký novoroční běh</h1>
-      <p class="display-6 fw-bold text-center logo__color">01.01.2024</p1>
-        <a href="https://www.nazavody.cz/zavod/430-krinecky-novorocni-beh-2024/" target="_blank"
-          class="btn btn-danger btn-lg d-grid mx-auto  mt-5 mb-3 col-10 col-md-4 col-lg-3 fw-bold"
-          role="button">Registrace
-          ZDE</a>
-
-        <a href="img/vysledky_knb_2023.pdf" class="btn btn-primary " target="_blank">Výsledky 2023</a>
-
-
-    </div>
-
-  </main>
-
-  <section class="route ">
-    <!-- VLNY START -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 120 1440 200" class="wave">
-      <path fill="#BDDBD9" fill-opacity="1"
-        d="M0,320L120,309.3C240,299,480,277,720,245.3C960,213,1200,171,1320,149.3L1440,128L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
-      </path>
-    </svg>
-    <!-- VLNY KONEC -->
-    <div class="container">
-      <!-- <h3 class="fw-bold text-center mb-4 mx-auto">Trať závodu</h3> -->
-
-      <div class="row">
-        <div class="col col-12 col-lg-6">
-          <p class="text-center px-5 fs-5 lh-lg">Start a cíl běhu je v zámeckém parku, běží se dvakrát okruh zámek –
-            Kuncberk – hřbitov – Štěpnice.
-            Delká trati je 3 km, tj. běžci na 6 kilometrů běží dva okruhy.
-            Trať je značená šipkami, na křižovatkách budou stát navigátoři. </p>
-          <div class="text-center py-5">
-
-            <a href="https://connect.garmin.com/modern/course/206924615" class="btn" target="_blank"><img
-                class="img-fluid rounded" src="img/connect-removebg.png" alt="logo garmin connect"></a>
-            <a href="https://www.strava.com/routes/3152165837192143460" class="btn" target="_blank"><img
-                class="img-fluid rounded" src="img/strava.png" alt="logo strava.com"></a>
-            <a href="https://mapy.cz/s/lezosesoke" class="btn" target="_blank"><img class="img-fluid rounded"
-                src="img/mapy.png" alt="logo mapy.cz"></a>
-
+    </nav>
+    <main>
+        <div class="container races">
+            <div class="row margintop text-center">
+                <div class="col-lg-4 col-sm-12 py-5" >
+                    <a href="https://www.sokolkrinec.cz/knb"><img class="img-fluid rounded" src="img/knb.png" alt="Křinecký novoroční běh - logo"></a>
+                </div>
+              <div class="col-lg-4 col-sm-12 bordermq py-5" >
+                <a href="https://www.sokolkrinec.cz/slapka"><img class="img-fluid" src="img/slapka.png" alt="Chotucká šlapka - logo"></a>
+              </div>
+              <div class="col-lg-4 col-sm-12 py-5">
+                <a href="https://www.sokolkrinec.cz/bludistak"><img class="img-fluid" src="img/bludistak.png" alt="Křinecký cyklobludišťák - logo"></a>
+              </div>
+            </div>
           </div>
-
-        </div>
-        <div class="col col-12 col-lg-6">
-          <a href="https://mapy.cz/s/hapokadaro" target="_blank"><img src="img/mapa_knb.png"
-              class="img-fluid d-block mx-auto rounded" alt="Mapa jednoho okruhu běhu"></a>
-        </div>
-      </div>
-    </div>
-    <!-- VLNY START -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 30 1440 230" class="wave">
-      <path fill="#BDDBD9" fill-opacity="1"
-        d="M0,256L120,234.7C240,213,480,171,720,133.3C960,96,1200,64,1320,48L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
-      </path>
-    </svg>
-    <!-- VLNY KONEC -->
-  </section>
-
-  <section class="description">
-
-    <div class="container">
-      <!-- <h3 class="fw-bold text-center my-3 mx-auto">Propozice</h3> -->
-      <div class="row">
-        <div class="col col-12 col-lg-6">
-
-          <p class="pt-3 pb-3 fs-6 lh-lg ">
-            <b>Termín:</b> pondělí 01. ledna 2024 <br>
-            <b>Místo konání:</b> Zámecký park, městys Křinec, okres Nymburk <br>
-            <b>Ročník: </b>1.<br>
-            <b>Registrace:</b> pouze on-line
-            <a href="https://www.nazavody.cz/zavod/430-krinecky-novorocni-beh-2024/" target="_blank"><span
-                class="badge bg-danger">ZDE</span></a>
-            <a href="img/pozvanka24.png" target="_blank"><span class="badge bg-success">Pozvánka</span></a>
-            <br>
-            <b>Startovné</b>: 100 Kč při online registraci, na místě 150 Kč. <br>
-            <b>Délka závodu:</b> 6 km / 3 km. <br>
-            <strong>Kategorie hlavního závodu: </strong><i>Muži/Ženy do 40 let, Muži/Ženy nad 40 let.</i><br>
-            <b> Popis trati:</b> 3 km okruh s převýšením 16 m. Běžci na 6 km absolvují dva okruhy. <br>
-            <b> Povrch:</b> asfalt (80 %), zpevněné cesty (20 %). <br>
-            <b>Občerstvení:</b> bude zajištěno v místě startu/cíle.<br>
-            <b> Ceny:</b> pro první tři závodníky v každé kategorii. <br>
-            <b>Vyhlášení výsledků:</b> po doběhu posledního závodníka. <br>
-            <b>Bezpečnostní pokyny:</b> Závodníci startují na vlastní nebezpečí. Jsou povinni dodržovat pravidla závodu,
-            pokyny pořadatelů a obecně právní předpisy.
-            Doporučujeme lékařskou prohlídku a úrazové pojištění pro den závodu. <br>
-          </p>
-        </div>
-        <div class="col col-12 col-lg-6">
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col" colspan="2">Časový harmonogram</th>
-              </tr>
-            </thead>
-            <tbody class="table-group-divider">
-              <tr>
-                <th scope="row">12.30</th>
-                <td>Začátek prezentace dětských závodů.</td>
-              </tr>
-              <tr>
-                <th scope="row">13.00</th>
-                <td>Postupný start dětských závodů.</td>
-              </tr>
-              <tr>
-                <th scope="row">13.15</th>
-                <td>Prezentace do hlavního závodu.</td>
-              </tr>
-              <tr>
-                <th scope="row">13.45</th>
-                <td>Konec prezentace hlavního závodu.</td>
-              </tr>
-              <tr>
-                <th scope="row">14.00</th>
-                <td> Start hlavního závodu na 3 a 6 km.</td>
-              </tr>
-            </tbody>
-          </table>
-          <table class="table">
-            <thead>
-              <tr>
-                <th scope="col" colspan="2">Rozpis dětských běhů</th>
-              </tr>
-            </thead>
-            <tbody class="table-group-divider">
-              <tr>
-                <th scope="row">1 - 2 roky</th>
-                <td>50 m</td>
-              </tr>
-              <tr>
-                <th scope="row">3 - 4 roky</th>
-                <td>100 m</td>
-              </tr>
-              <tr>
-                <th scope="row">5 - 6 let</th>
-                <td>200 m</td>
-              </tr>
-              <tr>
-                <th scope="row">7 - 8 let</th>
-                <td>350 m</td>
-              </tr>
-              <tr>
-                <th scope="row">9 - 10 let</th>
-                <td>700 m</td>
-              </tr>
-              <tr>
-                <th scope="row">11 - 15 let</th>
-                <td>1 100 m</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="photo">
-    <!-- VLNY START -->
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100" class="wave"><path fill="#AFEEEE" fill-opacity="1" d="M0,96L120,96C240,96,480,96,720,85.3C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
-    <!-- VLNY konec -->
-    <div class="container py-3 ">
-      <!-- <h3 class="fw-bold text-center pt-4 mb-4 mx-auto">Start nultého ročníku 2023</h3> -->
-      <iframe src="https://www.youtube.com/embed/eablqv2Awfk?si=eCvYlsDcD7Hu4_CB" title="Start nultého ročníku 2023"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-
-    </div>
-  </section>
-
-  <footer>
-    <div class="navbar ">
-      <div class="container">
-        <div>
-          <a class="navbar-brand" href="http://www.krinec.cz" target="_blank">
-            <img src="img/znakkrinec.png" class="img-fluid" alt="znak městyse Křinec">
-          </a>
-        </div>
-        <div>
-          <a class="navbar-brand" href="https://www.facebook.com/chotuckaslapka" target="_blank">
-            <img src="img/facebook_w.png" class="img-fluid" alt="ikona facebooku">
-          </a>
-          <a class="navbar-brand" href="mailto:andreas.molitoris@gmail.com" target="_blank">
-            <img src="img/email_w.png" class="img-fluid" alt="ikona e-mailu">
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-
-  <!-- POČÍTADLO START -->
-  <script>
-    var countDownDate = new Date("Jan 01, 2024 14:00:00").getTime();
-    var x = setInterval(function () {
-      var now = new Date().getTime();
-      var distance = countDownDate - now;
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("countdown").innerHTML = "<span>00d</span> <span>00h</span> <span>00m</span> <span>00s</span>";
-      } else {
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        document.getElementById("countdown").innerHTML = "Do startu zbývá:<br>  <span>" +
-          (days.toString().padStart(2, '0')) + "d</span> <span>" +
-          (hours.toString().padStart(2, '0')) + "h</span> <span>" +
-          (minutes.toString().padStart(2, '0')) + "m</span> <span>" +
-          (seconds.toString().padStart(2, '0')) + "s</span>";
-      }
-    }, 1000);
-  </script>
-  <!-- POČÍTADLO KONEC -->
-  <!-- COOKIE LIŠTA START -->
-  <script type="text/javascript" src="https://www.cookie-lista.cz/BeeCookie/BeeCookie.js"></script>
-  <script type="text/javascript">
-    $(function () {
-      var options = {
-        theme: "grey",
-        position: "bottom-right",
-        distance: 20,
-        borderRadius: 4,
-        background: "#eeeeee",
-        backgroundOpacity: "0.8",
-        fontSize: 14,
-        text: "Tyto webové stránky používají k poskytování svých služeb soubory Cookies. Používáním těchto webových stránek souhlasíte s použitím souborů Cookies.",
-        html: false,
-        textColor: "#333333",
-        showButton: true,
-        buttonText: "SOUHLASÍM!",
-        buttonColor: "#ffffff",
-        buttonBgColor: "#333333",
-        moreButtonText: "Více informací o Cookies",
-        moreButtonColor: "#000000",
-        moreButtonLink: "https://www.cookie-lista.cz/co-je-cookies.html",
-        showCloseButton: false,
-        cookieDays: 365
-      }
-      $("body").BeeCookie(options);
-    });
-  </script>
-  <!-- COOKIE LIŠTA KONEC -->
-
-
-</body>
-
-</html>
+    </main>
+  
+ 
+  
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+  </html>
