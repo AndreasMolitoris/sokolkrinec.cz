@@ -1,10 +1,22 @@
+@font-face {
+  font-family: Adumu;
+  src: url("img/Adumu.ttf");
+
+}
+
+.adumu {
+  font-family: Adumu;
+  font-size: 1.5rem;
+  color: #e15701;
+  text-transform: uppercase;
+}
 
 .hlavni_logo {
     width: 75%;
 }
 
 .margintop {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .bordermq {
@@ -14,11 +26,33 @@
 
 }
 
+
+
+
 .races img {
     width: 75%;
 }
 
+.races .pbl {
+    width: 75%;
+}
 
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .blink {
+    animation: blink 4s infinite;
+  }
 
 @media screen and (max-width: 991px) {
     .bordermq {
@@ -35,6 +69,11 @@
 
     .races img {
         width: 50%;
+    }
+
+    .center {
+      margin: auto;
+      text-align: center;
     }
 
   }
