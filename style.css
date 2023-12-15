@@ -20,22 +20,19 @@
 }
 
 .bordermq {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 
 
 }
-
-
 
 
 .races img {
     width: 75%;
 }
 
-.races .pbl {
-    width: 75%;
-}
+
+
 
 
 @keyframes blink {
@@ -70,6 +67,15 @@
     .races img {
         width: 50%;
     }
+
+    .pbl img {
+      width: 50%;
+      
+      
+  }
+
+
+
 
     .center {
       margin: auto;
